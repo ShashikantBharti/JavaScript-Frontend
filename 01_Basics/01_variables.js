@@ -1,6 +1,6 @@
 const accountId = 144553;
 let accountEmail = 'demo@example.com';
-var accountPass = 'ThisIsPassword'; // We don't use var due to global scope it does not follow the scope
+var accountPass = 'ThisIsPassword'; // We don't use var due to global scope, it does not follow the scope
 accountCity = 'Lucknow';
 let accountState;
 

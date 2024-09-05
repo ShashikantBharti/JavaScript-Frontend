@@ -21,6 +21,9 @@ console.log(typeof null);
 console.log(typeof undefined);
 console.log(typeof 19);
 
-
-
-
+// Data types in JS
+// 1. Number
+// 2. String
+// 3. Boolean
+// 4. Object
+// 5. undefined
