@@ -42,3 +42,29 @@ const myFunc = function () {
 };
 
 console.log(typeof myFunc);
+
+// =========================== //
+// Type of Memory
+// 1. Stack (Primitive Data Types)
+// 2. Heap (Non-Primitive Data Types)
+
+let username = 'shashikantBharti';
+
+let anotherUser = username;
+anotherUser = 'This is JS Course';
+
+console.log(username);
+console.log(anotherUser);
+
+let userOne = {
+  email: 'user@mail.com',
+  name: 'Shashikant',
+};
+
+let userTwo = userOne;
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+userTwo.email = 'Shashikant@gmail.com';
+console.log(userOne.email);
